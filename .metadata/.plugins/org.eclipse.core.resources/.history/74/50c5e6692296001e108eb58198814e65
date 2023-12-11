@@ -1,0 +1,6 @@
+
+INSERT INTO tb_category(description) VALUES ('lalalalalalal');
+
+INSERT INTO tb_activity(person_id,name,description,price) VALUES (1,'luiz','ppppppp',50.50);
+
+

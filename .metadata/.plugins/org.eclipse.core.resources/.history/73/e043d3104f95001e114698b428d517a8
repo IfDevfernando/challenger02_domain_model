@@ -1,0 +1,5 @@
+package com.domainmodel.challenger02.entities;
+
+public class Category {
+
+}

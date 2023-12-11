@@ -1,0 +1,19 @@
+
+INSERT INTO tb_participants(name,email) VALUES ('jose silva','jose@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('tiago faria ','tiago@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('maria do rosario','maria@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('tereza silva','tereza@gmail.com');
+
+
+INSERT INTO tb_activity(id,name,description,price,person_id) VALUES (1,'curso HTML','aprenda HTMl de forma pratica',50.0,1);
+
+INSERT INTO tb_activity(id,name,description,price,person_id) VALUES (2,'Oficina Github','controle versões do seu projeto',50.0,1);
+
+INSERT INTO tb_activity(id,name,description,price,person_id) VALUES (1,'curso HTML','aprenda HTMl de forma pratica',50.0,2);
+
+INSERT INTO tb_activity(id,name,description,price,person_id) VALUES (1,'curso HTML','aprenda HTMl de forma pratica',50.0,3);
+
+INSERT INTO tb_activity(id,name,description,price,person_id) VALUES (2,'Oficina Github','controle versões do seu projeto',50.0,3);

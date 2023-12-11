@@ -1,0 +1,41 @@
+
+INSERT INTO tb_participants(name,email) VALUES('Jose Silva','jose@gmail.com')
+
+INSERT INTO tb_participants(name,email) VALUES('Tiago Faria','tiago@gmail.com')
+
+INSERT INTO tb_participants(name,email) VALUES('Maria do Rosario','maria@gmail.com')
+
+INSERT INTO tb_participants(name,email) VALUES('Teresa Silva','teresa@gmail.com')
+
+
+
+INSERT INTO tb_category(description) VALUES('Curso')
+INSERT INTO tb_category(description) VALUES('Oficina')
+
+
+INSERT INTO tb_activity(name,description,price) VALUES('Curso HTML','aprenda HTML na pratica',50.0,1)
+
+INSERT INTO tb_activity(name,description,price,category_id) VALUES('oficina Github','controle versões de seus projetos',50.0,2)
+
+
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(1,1)
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(1,2)
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(2,1)
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(3,1)
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(3,2)
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(3,2)
+
+
+INSERT INTO tb_blocks(startt,endt) VALUES(TIMESTAMP WITH TIME ZONE '2022-09-25T17:00:00Z',TIMESTAMP WITH TIME ZONE '2022-09-25T19:00:00Z')
+
+
+
+
+
+
+
+
+
+
+
+

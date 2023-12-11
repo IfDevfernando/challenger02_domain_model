@@ -1,0 +1,20 @@
+
+INSERT INTO tb_participants(name,email) VALUES('luiz','luiz@gmail.com')
+
+INSERT INTO tb_category(description) VALUES('curso')
+
+INSERT INTO tb_activity(name,description,price) VALUES('Curso HTML','aprenda HTML na pratice',50.0)
+
+INSERT INTO tb_activity(name,description,price,category_id) VALUES('oficina Github','aprenda versionamento de software',50.0,1)
+
+
+INSERT INTO tb_activies_participants(activies_id,participants_id) VALUES(1,1)
+
+
+
+
+
+
+
+
+

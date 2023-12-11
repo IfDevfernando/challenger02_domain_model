@@ -1,0 +1,13 @@
+package com.domainmodel.challenger02;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Challenger02Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Challenger02Application.class, args);
+	}
+
+}

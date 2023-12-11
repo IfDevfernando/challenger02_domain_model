@@ -1,0 +1,58 @@
+package com.domainmodel.challenger02.entities;
+
+import java.time.Instant;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="tb_block")
+public class Block {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Integer id;
+	
+	private String start;
+	private String end;
+	
+	public Block() {
+		
+	}
+
+	public Block(Integer id, Instant start, Instant end) {
+		super();
+		this.id = id;
+		this.start = start;
+		this.end = end;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Instant getStart() {
+		return start;
+	}
+
+	public void setStart(Instant start) {
+		this.start = start;
+	}
+
+	public Instant getEnd() {
+		return end;
+	}
+
+	public void setEnd(Instant end) {
+		this.end = end;
+	}
+	
+
+}

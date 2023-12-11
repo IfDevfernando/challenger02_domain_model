@@ -1,0 +1,9 @@
+
+INSERT INTO tb_participants(name,email) VALUES ('jose silva','jose@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('tiago faria ','tiago@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('maria do rosario','maria@gmail.com');
+
+INSERT INTO tb_participants(name,email) VALUES ('tereza silva','tereza@gmail.com');
+

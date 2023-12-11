@@ -1,0 +1,2 @@
+
+INSERT INTO tb_participants(name,email) VALUE('luiz','luiz@gmail.com');

@@ -1,0 +1,61 @@
+package com.domainmodel.challenger02.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="tb_blocks")
+public class Block {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private Integer id;
+	
+	private String startt;
+	private String endt;
+	
+	
+	
+	
+	public Block() {
+		
+	}
+
+	public Block(Integer id, String start, String end) {
+		super();
+		this.id = id;
+		this.startt = start;
+		this.endt = end;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getStart() {
+		return startt;
+	}
+
+	public void setStart(String start) {
+		this.startt = start;
+	}
+
+	public String getEnd() {
+		return endt;
+	}
+
+	public void setEnd(String end) {
+		this.endt = end;
+	}
+	
+
+}

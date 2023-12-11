@@ -1,0 +1,64 @@
+package com.domainmodel.challenger02.entities;
+
+import java.time.Instant;
+import java.util.Objects;
+
+public class Block {
+
+	private Integer id;
+	private Instant start;
+	private Instant end;
+	
+	public Block() {
+		
+	}
+
+	public Block(Integer id, Instant start, Instant end) {
+		s
+		this.id = id;
+		this.start = start;
+		this.end = end;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Instant getStart() {
+		return start;
+	}
+
+	public void setStart(Instant start) {
+		this.start = start;
+	}
+
+	public Instant getEnd() {
+		return end;
+	}
+
+	public void setEnd(Instant end) {
+		this.end = end;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Block other = (Block) obj;
+		return Objects.equals(id, other.id);
+	}
+	
+}
